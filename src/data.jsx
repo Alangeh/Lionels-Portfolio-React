@@ -61,25 +61,25 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Steve',
+    description: 'Lionel',
   },
 
   {
     id: 2,
     title: 'Last Name : ',
-    description: 'Milner',
+    description: 'Alangeh',
   },
 
   {
     id: 3,
     title: 'Age : ',
-    description: '27 Years',
+    description: '26 Years',
   },
 
   {
     id: 4,
     title: 'Nationality : ',
-    description: 'Tunisian',
+    description: 'Cameroonian',
   },
 
   {
@@ -91,57 +91,57 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Address : ',
-    description: 'Tunis',
+    description: 'Istanbul/Turkey',
   },
 
   {
     id: 7,
     title: 'Phone : ',
-    description: '+21621184010',
+    description: '+90 552 527 4506',
   },
 
   {
     id: 8,
     title: 'Email : ',
-    description: 'you@mail.com',
+    description: 'ngobesinglionel@gmail.com',
   },
 
   {
     id: 9,
-    title: 'Skype : ',
-    description: 'steve.milner',
+    title: 'Github : ',
+    description: 'https://github.com/Alangeh',
   },
 
   {
     id: 10,
     title: 'Langages : ',
-    description: 'French, English',
+    description: 'English, French, Turkish',
   },
 ];
 
 export const stats = [
   {
     id: 1,
-    no: '12+',
-    title: 'Years of <br /> Experience',
+    no: '3+',
+    title: 'Years of Professional <br /> Experience',
   },
 
   {
     id: 2,
-    no: '97+',
-    title: 'Completed <br /> Projects',
+    no: '7+',
+    title: 'Years of <br /> Programming',
   },
 
   {
     id: 3,
-    no: '81+',
-    title: 'Happy <br /> Customers',
+    no: '10+',
+    title: 'Completed <br /> Courses',
   },
 
   {
     id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
+    no: '3+',
+    title: ' Excellence Awards <br /> Won',
   },
 ];
 
