@@ -3,6 +3,7 @@ import Info from '../../components/Info';
 import Stats from '../../components/Stats';
 import { FaDownload } from "react-icons/fa";
 import CV from "../../assets/Resume.pdf";
+import "./about.css";
 
 const About = () => {
     return (
@@ -32,6 +33,8 @@ const About = () => {
                     </div>
                 </div>
             </section>
+
+            
         </main>
     )
 }
