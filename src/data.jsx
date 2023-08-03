@@ -97,7 +97,7 @@ export const personalInfo = [
   {
     id: 7,
     title: 'Phone : ',
-    description: '+90 552 527 4506',
+    description: '<a href="tel: +90 552 527 4506" target="_blank">+90 552 527 4506</a>',
   },
 
   {
@@ -109,7 +109,7 @@ export const personalInfo = [
   {
     id: 9,
     title: 'Github : ',
-    description: 'https://github.com/Alangeh',
+    description: '<a href="https://github.com/Alangeh" target="_blank">https://github.com/Alangeh</a>',
   },
 
   {

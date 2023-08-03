@@ -11,7 +11,7 @@ const Home = () => {
         gsap.to(currentTarget, { backgroundColor: "#28a92b", scale: 1 });
       };
       const onEnter = ({ currentTarget }) => {
-        gsap.to(currentTarget, 1 , { backgroundColor: "#e77614",ease: "bounce.out", scale: 1.2 });
+        gsap.to(currentTarget, 1.5, { backgroundColor: "#e77614",ease: "bounce.out", scale: 1.1});
       };
     return (
         <section className="home section grid">
