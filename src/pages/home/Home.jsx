@@ -3,11 +3,19 @@ import Profile from '../../assets/lionel.jpeg';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from "react-icons/fa";
 import "./home.css";
+import { gsap } from "gsap";
 
 const Home = () => {
+
+    const onLeave = ({ currentTarget }) => {
+        gsap.to(currentTarget, { backgroundColor: "#28a92b", scale: 1 });
+      };
+      const onEnter = ({ currentTarget }) => {
+        gsap.to(currentTarget, 1 , { backgroundColor: "#e77614",ease: "bounce.out", scale: 1.2 });
+      };
     return (
         <section className="home section grid">
-            <img src={Profile} alt="" className="home__img" />
+            <img src={Profile} alt="" className="home__img" onMouseEnter={onEnter} onMouseLeave={onLeave} />
 
             <div className="home__content">
                 <div className="home__data">
