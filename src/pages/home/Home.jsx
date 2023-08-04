@@ -7,20 +7,21 @@ import { gsap } from "gsap";
 
 const Home = () => {
 
-    const onLeave = ({ currentTarget }) => {
-        gsap.to(currentTarget, { backgroundColor: "#28a92b", scale: 1 });
-      };
-      const onEnter = ({ currentTarget }) => {
-        gsap.to(currentTarget, 1.5, { backgroundColor: "#e77614",ease: "bounce.out", scale: 1.1});
-      };
+    const onLeavePicture = ({ currentTarget }) => {
+        gsap.to(currentTarget, { ease: "bounce.out", scale: 1 });
+    };
+    const onEnterPicture = ({ currentTarget }) => {
+        gsap.to(currentTarget, 1.5, { ease: "bounce.out", scale: 1.1 });
+    };
+
     return (
         <section className="home section grid">
-            <img src={Profile} alt="" className="home__img" onMouseEnter={onEnter} onMouseLeave={onLeave} />
+            <img src={Profile} alt="" className="home__img" onMouseEnter={onEnterPicture} onMouseLeave={onLeavePicture} />
 
             <div className="home__content">
                 <div className="home__data">
                     <h1 className="home__title">
-                        <span>Hi, I'm Lionel Alangeh.</span> Full-Stack Web Developer
+                        <span>Hi, I'm Lionel Alangeh.</span> Full-Stack C#/React Developer
                     </h1>
 
                     <p className="home__description">
