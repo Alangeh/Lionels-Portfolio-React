@@ -11,7 +11,7 @@ const Home = () => {
         gsap.to(currentTarget, { ease: "bounce.out", scale: 1 });
     };
     const onEnterPicture = ({ currentTarget }) => {
-        gsap.to(currentTarget, 1.5, { ease: "bounce.out", scale: 1.1 });
+        gsap.to(currentTarget, { ease: "bounce.out", scale: 1.1 });
     };
 
     return (
