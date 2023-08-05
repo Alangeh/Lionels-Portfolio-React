@@ -9,12 +9,11 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from './assets/project-1.jpeg';
-import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
+import Work1 from './assets/aeparts.png';
+import Work2 from './assets/jopart.png';
+import Work3 from './assets/reactstore.png';
+import Work4 from './assets/personal.png';
 import Work5 from './assets/project-5.jpg';
-import Work6 from './assets/project-6.jpg';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -265,27 +264,27 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'AE PARTS Jordan',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Spare-parts Shop',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'AutoExcellence',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: '.NET MVC, C#, AngularJS, MSSQL',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: '<a href="https://aeparts.jo/Home" targer="_blank" >https://aeparts.jo</a>',
       },
     ],
   },
@@ -293,27 +292,27 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'JoPART Jordan',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Auto Parts Shop',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'AutoExcellence',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS',
+        desc: '.NET MVC, C#, AngularJS, MSSQL',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: '<a href="https://jopart.com/" targer="_blank" >https://jopart.com</a>',
       },
     ],
   },
@@ -321,27 +320,27 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    title: 'Online React Store',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Online Shop',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Personal',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'C#, .NET Core, ReactJS/Redux, Typescript, SQLite',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: '<a href="https://github.com/Alangeh/ReactOnlineShop" targer="_blank">Click for github repository</a>',
       },
     ],
   },
@@ -349,27 +348,27 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
+    title: 'My Personal Site',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'My Personal Page',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Personal',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'ReactJS, CSS, Typescript, GSAP',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: '<a href="https://github.com/Alangeh/Lionels-Portfolio-React" targer="_blank">Click for github repository</a>',
       },
     ],
   },
@@ -377,51 +376,23 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
+    title: 'Blog Website',
     details: [
       {
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Blog Site',
       },
       {
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Personal',
       },
       {
         title: 'Language : ',
-        desc: 'React JS, Node JS',
+        desc: 'C#, .NET Core, JQuery, Ajax',
       },
       {
         title: 'Preview : ',
-        desc: 'www.dribble.com',
-      },
-    ],
-  },
-
-  {
-    id: 6,
-    img: Work6,
-    title: 'Photo Editing',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dibble.com',
+        desc: '<a href="https://github.com/Alangeh/Basic-Blog-using-.NET-Core-5-Framework" targer="_blank">Click for github repository</a>',
       },
     ],
   },

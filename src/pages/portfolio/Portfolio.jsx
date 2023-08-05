@@ -3,6 +3,7 @@ import { portfolio } from '../../data';
 import PortfolioItem from '../../components/PortfolioItem';
 import "./portfolio.css";
 
+
 const Portfolio = () => {
     return (
         <section className="portfolio section">
