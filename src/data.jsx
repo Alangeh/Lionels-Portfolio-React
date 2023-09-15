@@ -14,6 +14,7 @@ import Work2 from './assets/jopart.png';
 import Work3 from './assets/reactstore.png';
 import Work4 from './assets/personal.png';
 import Work5 from './assets/project-5.jpg';
+import Work6 from './assets/urm.png';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -393,6 +394,29 @@ export const portfolio = [
       {
         title: 'Preview : ',
         desc: '<a href="https://github.com/Alangeh/Basic-Blog-using-.NET-Core-5-Framework" targer="_blank">Click for github repository</a>',
+      },
+    ],
+  },
+  {
+    id: 6,
+    img: Work6,
+    title: 'UR Management',
+    details: [
+      {
+        title: 'Project : ',
+        desc: 'Project/Employee Management Platform',
+      },
+      {
+        title: 'Client : ',
+        desc: 'Personal(In Progress)',
+      },
+      {
+        title: 'Language : ',
+        desc: 'C#, .NET Core MVC, CSS, MSSQL, Linq',
+      },
+      {
+        title: 'Preview : ',
+        desc: '<a href="https://github.com/Alangeh/ProjectManagementApp" targer="_blank">Click for github repository</a>',
       },
     ],
   },
