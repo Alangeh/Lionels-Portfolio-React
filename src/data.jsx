@@ -227,7 +227,7 @@ export const skills = [
   {
     id: 3,
     title: 'Python',
-    percentage: '70',
+    percentage: '84',
   },
 
   {
@@ -245,7 +245,7 @@ export const skills = [
   {
     id: 6,
     title: 'CI/CD Pipelines',
-    percentage: '65',
+    percentage: '80',
   },
 
   {
@@ -257,7 +257,17 @@ export const skills = [
   {
     id: 8,
     title: 'React',
-    percentage: '69',
+    percentage: '82',
+  },
+  {
+    id: 9,
+    title: 'RabbitMQ',
+    percentage: '80',
+  },
+  {
+    id: 10,
+    title: 'GoLang',
+    percentage: '81',
   },
 ];
 
