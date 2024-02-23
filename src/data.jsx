@@ -182,18 +182,26 @@ export const resume = [
     desc: 'Worked full-time as a junior systems administrator intern, performing daily systems maintenance.',
   },
 
-
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2023',
-    title: 'Masters Degree <span> Gazi University Turkey</span>',
-    desc: 'Continuing masters education at Gazi Universty in the department of Computer Engineering, Institute of Applied and Natural Sciences',
+    title: 'Masters Degree <span> WSB University Poland</span>',
+    desc: 'Continuing masters education at WSB Universty, in International Business Management (IBM).',
   },
 
   {
     id: 6,
+    category: 'education',
+    icon: <FaGraduationCap />,
+    year: '2023',
+    title: 'Masters Degree <span> Gazi University Turkey</span>',
+    desc: 'Completed masters education at Gazi Universty in the department of Computer Engineering, Institute of Applied and Natural Sciences',
+  },
+
+  {
+    id: 7,
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2018',
@@ -202,7 +210,7 @@ export const resume = [
   },
 
   {
-    id: 7,
+    id: 8,
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2014',
