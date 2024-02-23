@@ -186,7 +186,7 @@ export const resume = [
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2023',
+    year: '2024',
     title: 'Masters Degree <span> WSB University Poland</span>',
     desc: 'Continuing masters education at WSB Universty, in International Business Management (IBM).',
   },
