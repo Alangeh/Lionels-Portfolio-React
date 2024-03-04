@@ -73,7 +73,7 @@ export const personalInfo = [
   {
     id: 3,
     title: 'Age : ',
-    description: '26 Years',
+    description: '27 Years',
   },
 
   {
@@ -91,7 +91,7 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Address : ',
-    description: 'Istanbul/Turkey',
+    description: 'Krakow/Poland',
   },
 
   {

@@ -32,14 +32,15 @@ const Contact = () => {
 
                         <div>
                             <span className="info__title">Call/Whatsapp me</span>
+                            <h4 className='info__desc'><a href="tel:+48571006994">+48 571 006 994</a></h4>
                             <h4 className='info__desc'><a href="tel:+905525274506">+90 552 527 4506</a></h4>
                         </div>
                     </div>
                 </div>
 
                 <div className="contact__socials">
-                    <a href="https://github.com/Alangeh" className="contact__social-link"><FaGitlab /></a>
-                    <a href="https://gitlab.com/ngobesinglionel" className="contact__social-link"><FaGithub /></a>
+                    <a href="https://github.com/Alangeh" className="contact__social-link"><FaGithub /></a>
+                    <a href="https://gitlab.com/ngobesinglionel" className="contact__social-link"><FaGitlab /></a>
                     <a href="https://www.linkedin.com/in/lionel-ngobesing-alangeh-429611153/" className="contact__social-link"><FaLinkedin /></a>
                 </div>
             </div>
