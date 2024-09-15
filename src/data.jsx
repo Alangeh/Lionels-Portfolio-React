@@ -73,7 +73,7 @@ export const personalInfo = [
   {
     id: 3,
     title: 'Age : ',
-    description: '27 Years',
+    description: '27',
   },
 
   {
@@ -97,7 +97,7 @@ export const personalInfo = [
   {
     id: 7,
     title: 'Phone : ',
-    description: '<a href="tel: +48 571 006 994" target="_blank">+48 571 006 994</a><br/><a href="tel: +90 552 527 4506" target="_blank">+90 552 527 4506</a>',
+    description: '<a href="tel: +48 571 006 994" target="_blank">+48 571 006 994</a><br/>WhatsApp : <a href="tel: +90 552 527 4506" target="_blank">+90 552 527 4506</a>',
   },
 
   {
@@ -150,13 +150,21 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2021 - PRESENT',
-    title: 'Web Developer <span> Eryaz Software Technologies ISTANBUL </span>',
-    desc: '.NET full-stack software engineer working as part of a team that developes new features for the ERYAZ B2B, B2C and WMS systems as well as debugging and fixing errors on the already existing features. Working directly with REST APIs and Webservices to communicate with client ERP Systems.',
+    year: '2024 - PRESENT',
+    title: 'Backend Developer <span> Euroclear (HCL Tech) Krakow-Poland </span>',
+    desc: '.NET backend developer working as part of a team working on a message processing system, for managing inbound and outbound messages. Fixing bugs, and optimizing code to improve application performance. Working directly with REST APIs, JSON, XML and Webservices.',
   },
-
   {
     id: 2,
+    category: 'experience',
+    icon: <FaBriefcase />,
+    year: '2021 - 2024',
+    title: 'Fullstack Developer <span> Eryaz Software Technologies ISTANBUL </span>',
+    desc: '.NET full-stack software engineer working as part of a team that developes new features for the ERYAZ B2B, B2C and WMS systems as well as debugging and fixing errors on the already existing features. Working directly with REST APIs and Webservices to communicate with client ERP Systems.',
+  },
+  
+  {
+    id: 3,
     category: 'experience',
     icon: <FaBriefcase />,
     year: 'Oct 2020 - Nov 2020',
@@ -165,7 +173,7 @@ export const resume = [
   },
 
   {
-    id: 3,
+    id: 4,
     category: 'experience',
     icon: <FaBriefcase />,
     year: '2017 - 2018',
@@ -174,7 +182,7 @@ export const resume = [
   },
 
   {
-    id: 4,
+    id: 5,
     category: 'experience',
     icon: <FaBriefcase />,
     year: '2017 - 2018',
@@ -183,7 +191,7 @@ export const resume = [
   },
 
   {
-    id: 5,
+    id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2024',
@@ -192,7 +200,7 @@ export const resume = [
   },
 
   {
-    id: 6,
+    id: 7,
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2023',
@@ -201,7 +209,7 @@ export const resume = [
   },
 
   {
-    id: 7,
+    id: 8,
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2018',
@@ -210,7 +218,7 @@ export const resume = [
   },
 
   {
-    id: 8,
+    id: 9,
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2014',

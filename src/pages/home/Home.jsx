@@ -25,7 +25,7 @@ const Home = () => {
                     </h1>
 
                     <p className="home__description">
-                        I'm a Krakow/Poland based full-stack web developer focused on creating, crafting and writing clean and user-friendly experiences with my code.
+                        I'm a Krakow/Poland-based backend developer currently working at Euroclear (for HCL Technologies), focused on creating, crafting and writing clean and user-friendly experiences with my code.
                         I am passionate about creating outstanding software and solutions, while giving my best to improve the lives of those around me and making their jobs easier.
                     </p>
 

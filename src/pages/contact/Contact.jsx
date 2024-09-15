@@ -64,11 +64,14 @@ const Contact = () => {
                     <textarea placeholder='Your Message' className='form__control textarea'></textarea>
                 </div>
 
-                <button className='button'> Send Message
-                <span className="button__icon contact__button-icon">
-                    <FiSend />
-                </span>
-                </button>
+                <a className='button' href="mailto:ngobesinglionel@gmail.com">
+                Send Message
+                    
+                        <span className="button__icon contact__button-icon">
+                            <FiSend />
+                        </span>
+                    
+                </a>
             </form>
         </div>
         </section>
